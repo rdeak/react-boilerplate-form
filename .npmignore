@@ -1,0 +1,6 @@
+coverage/
+src/
+.babelrc
+.gitignore
+*.js
+*.yml

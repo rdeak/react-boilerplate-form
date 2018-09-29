@@ -1,0 +1,63 @@
+{
+  "name": "react-boilerplate-form",
+  "version": "0.1.0",
+  "description": "Tiny library that provides a boilerplate form components and validators for ReactJS.",
+  "keywords": [
+    "react",
+    "reactjs",
+    "form",
+    "react-form",
+    "boilerplate",
+    "async",
+    "async-form",
+    "asynchronous-form",
+    "form-validation",
+    "form-validator",
+    "form-decorators"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdeak/react-boilerplate-form.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rdeak/react-boilerplate-form"
+  },
+  "main": "dist/react-boilerplate-form.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "lint": "eslint --fix ./src/**",
+    "test": "jest",
+    "coverage": "jest --coverage --u --no-cache"
+  },
+  "author": "Robert Deak",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.4.1",
+    "react-dom": ">=16.4.1"
+  },
+  "dependencies": {
+    "yadate-converter": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "coveralls": "^3.0.2",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "eslint": "^5.6.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.6.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-test-renderer": "^16.4.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1"
+  }
+}
