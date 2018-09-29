@@ -23,7 +23,7 @@ function Errors(props){
                 (flatFieldErrors, fieldname) => [...flatFieldErrors, ...fieldErrors[fieldname]],
                 []
             );
-        }
+        };
         return [...allFieldErrors(), ...template.getFormErrors()];
     };
 
