@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/rdeak/react-boilerplate-form.svg?branch=master)](https://travis-ci.com/rdeak/react-boilerplate-form)
+[![Build Status](https://travis-ci.org/rdeak/react-boilerplate-form.svg?branch=master)](https://travis-ci.org/rdeak/react-boilerplate-form)
 [![Coverage Status](https://coveralls.io/repos/github/rdeak/react-boilerplate-form/badge.svg?branch=master)](https://coveralls.io/github/rdeak/react-boilerplate-form?branch=master)
 [![install size](https://packagephobia.now.sh/badge?p=react-boilerplate-form)](https://packagephobia.now.sh/result?p=react-boilerplate-form)
 
