@@ -19,7 +19,7 @@ function FormFieldRules(...fields){
     };
 
     this.getFields = () => {
-        return _fields;
+        return [..._fields].map(field => field.clone());
     };
 
     this.getFieldNames = () => Object.keys(_fieldIndex);

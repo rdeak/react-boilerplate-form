@@ -113,7 +113,7 @@ function SimpleForm(){
 }
 ```
 
-Please go on [wiki]() for more examples and complete API.
+Please go on [wiki](https://github.com/rdeak/react-boilerplate-form/wiki) for more examples and complete API.
 
 ## License
 

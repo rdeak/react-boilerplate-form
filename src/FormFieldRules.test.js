@@ -36,7 +36,8 @@ it('add a field', ()=>{
     expect(fieldRules.addField(field)).toBeInstanceOf(FormFieldRules);
     expect(fieldRules.getFields()).toBeInstanceOf(Array);
     expect(fieldRules.getFields()).toHaveLength(1);
-    expect(fieldRules.getFields()[0]).toEqual(field);
+    expect(fieldRules.getFields()[0]).toBeInstanceOf(FormField);
+    expect(fieldRules.getFields()[0]!==field).toBe(true);
     expect(fieldRules.getField(fieldName)).toEqual(field);
     expect(fieldRules.hasField(fieldName)).toBe(true);
     expect(fieldRules.getFieldNames()).toEqual([fieldName]);
